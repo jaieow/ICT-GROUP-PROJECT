@@ -5,11 +5,24 @@ body{
     margin:0;
     min-height:100vh;
 }
+.music-label{
+    margin:0 0 5px 0;
+    text-align:right;
+
+    font-family:'Montserrat';
+    font-size:12px;
+    color:white;
+}
 .container{
     display:flex;
     gap:20px;
     justify-content:center;
     align-items:flex-start;
+}
+audio{
+    position:fixed;
+    bottom:20px;
+    right:20px;
 }
 
 .textbox{
@@ -132,10 +145,6 @@ summary{
 </head>
 <body bgcolor="#50C878">
 <div class="textbox" style="position:relative;">
-
-<audio controls autoplay loop>
-<source src="toby fox - UNDERTALE Soundtrack - 63 It's Raining Somewhere Else.mp3" type="audio/mpeg">
-</audio>
 <img class="logo" src="Berry & Brew logo.png" style="float: right; margin-left: 15px;" height="100" width="100">
 <h1 style="text-align:center">Berry & Brew</h1>
 <p style="text-align:center">Sip with glee, taste the tea</p>
@@ -144,10 +153,12 @@ summary{
 <br>
 <br>
 <div class="textbox">
+<audio controls autoplay loop>
+<source src="toby fox - UNDERTALE Soundtrack - 63 It's Raining Somewhere Else.mp3" type="audio/mpeg">
+</audio>
 <h1>(insert whatever)</h1>
 <p>(whatever)</p>
 <p>(insert link here)<br>(insert link here)<br>(insert link here)<br>(insert link here)<br>(insert link here)</p>
-</div>
 </div>
 </body>
 </html>
