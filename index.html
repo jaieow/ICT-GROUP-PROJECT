@@ -4,14 +4,11 @@
 body{
     margin:0;
     min-height:100vh;
-}
-.music-label{
-    margin:0 0 5px 0;
-    text-align:right;
-
-    font-family:'Montserrat';
-    font-size:12px;
-    color:white;
+.container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    align-items:flex-start;
 }
 .container{
     display:flex;
@@ -24,7 +21,21 @@ audio{
     bottom:20px;
     right:20px;
 }
-
+.header{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.nav{
+    display:flex;
+    gap:15px;
+    width:50%
+}
+.topsection{
+    display:flex;
+    gap:20px;
+    align-items:flex-start;
+}
 .textbox{
     width:96%;
     padding:30px;
@@ -64,7 +75,7 @@ h1{
     font-size:350%;
     color:white;
     text-shadow:2px 2px 5px black;
-    margin-bottom:5px;
+    margin-bottom:3px;
 }
 
 p{
@@ -72,7 +83,7 @@ p{
     color:white;
     text-shadow:2px 2px 5px black;
     font-size:150%;
-    margin-top:5px;
+    margin-top:3px;
 }
 details{
     margin-top:10px;
@@ -89,10 +100,10 @@ summary{
     cursor:pointer;
     font-size:20px;
     font-weight:bold;
-    font-family:PerpetuaTitlingMTSd-Lt;
+    font-family: 'Montserrat';
     color:white;
     text-shadow:2px 2px 5px black;
-    font-size:125%
+    font-size:150%;
 }
 .header{
     display:flex;
@@ -152,13 +163,17 @@ summary{
 </div>
 <br>
 <br>
+<div class="container">
 <div class="textbox">
+<h1>(insert whatever)</h1>
+<p>(whatever)</p>
+<div class="header"><img src="Berry&BrewMenu.jpg" height="100" width="100""><p>(insert link here)</p>
+<div class="header"><img src="Berry&BrewMenu.jpg" height="100" width="100""><p>(insert link here)</p>
+<div class="header"><img src="Berry&BrewMenu.jpg" height="100" width="100""><p>(insert link here)</p>
+<div class="header"><img src="Berry&BrewMenu.jpg" height="100" width="100""><p>(insert link here)</p>
 <audio controls autoplay loop preload="auto">
 <source src="toby fox - UNDERTALE Soundtrack - 63 It's Raining Somewhere Else.mp3" type="audio/mpeg">
 </audio>
-<h1>(insert whatever)</h1>
-<p>(whatever)</p>
-<p>(insert link here)<br>(insert link here)<br>(insert link here)<br>(insert link here)<br>(insert link here)</p>
-</div>
+</div></div></div></div></div></div></div>
 </body>
 </html>
